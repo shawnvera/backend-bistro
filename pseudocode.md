@@ -49,5 +49,5 @@
 # End points #
 
     /american-food - displays list of american foods - hamburger, hot dog, cheese fries
-    /mexican-food - burrito, tacos, pupusas
+    /mexican-food - burritos, tacos, paella
     /asian-food - displays list of asian foods - habachi chicken, sake, sashimi, nigiri
