@@ -5,5 +5,6 @@ from . import models
 # Create your views here.
 
 def display_menu_items(request):
+    name = 'menu_items'
     html = models.menu_items
     return HttpResponse(html)
