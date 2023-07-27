@@ -33,7 +33,7 @@
 
 # Flow chart #
 
-![backend bistro flowchar](/img/backend_bistro_flowchart.png)
+![backend bistro flowchar](/img/backend-bistro-flowchart.png)
 
 # Notes / Questions #
 

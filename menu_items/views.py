@@ -1,10 +1,13 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from . import models
+from django.http import JsonResponse
 
 # Create your views here.
 
-def display_menu_items(request):
-    name = 'menu_items'
-    html = models.menu_items
-    return HttpResponse(html)
+# response = JsonResponse({"foo:bar"})
+
+def display_menu_item(request):
+    html = f'{models.menu_items.title}'
+    print(html)
+    return JsonResponse(html)
