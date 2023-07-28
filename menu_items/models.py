@@ -4,15 +4,14 @@ from django.db import models
 
 class Category(models.Model):
     type = models.CharField(max_length=40)
-    # category = models.IntegerField()
 
 
 class Cuisine(models.Model):
     type = models.CharField(max_length=40)
-    # cuisine = models.IntegerField()
 
 class menu_items(models.Model):
     title = models.CharField(max_length=40)
+    description = models.CharField(max_length=100)
     price = models.IntegerField()
     spicy_level = models.IntegerField()
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
