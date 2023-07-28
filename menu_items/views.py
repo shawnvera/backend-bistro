@@ -10,4 +10,4 @@ from django.http import JsonResponse
 def display_menu_item(request):
     html = f'{models.menu_items.title}'
     print(html)
-    return JsonResponse(html)
+    return JsonResponse(html, safe=False)
